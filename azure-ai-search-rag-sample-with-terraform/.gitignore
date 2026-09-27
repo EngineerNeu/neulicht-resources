@@ -1,0 +1,10 @@
+# Never commit local secrets or generated credentials
+.env
+*.env
+secrets.json
+local.settings.json
+*.key
+*.pem
+
+# Local Azure / CLI artifacts
+.azure/

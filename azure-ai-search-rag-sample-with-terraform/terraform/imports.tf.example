@@ -1,0 +1,37 @@
+# Example import blocks for resources first created manually.
+# Replace the Search service name and any resource names before use.
+
+import {
+  to = azapi_data_plane_resource.data_source
+  id = "my-search-service.search.windows.net/datasources('rag-sample-datasource')|Microsoft.Search/searchServices/datasources@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.index
+  id = "my-search-service.search.windows.net/indexes('rag-sample-index')|Microsoft.Search/searchServices/indexes@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.skillset
+  id = "my-search-service.search.windows.net/skillsets('rag-sample-skillset')|Microsoft.Search/searchServices/skillsets@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.indexer
+  id = "my-search-service.search.windows.net/indexers('rag-sample-indexer')|Microsoft.Search/searchServices/indexers@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.debug_index[0]
+  id = "my-search-service.search.windows.net/indexes('rag-sample-index-debug')|Microsoft.Search/searchServices/indexes@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.debug_skillset[0]
+  id = "my-search-service.search.windows.net/skillsets('rag-sample-skillset-debug')|Microsoft.Search/searchServices/skillsets@2026-08-01-preview"
+}
+
+import {
+  to = azapi_data_plane_resource.debug_indexer[0]
+  id = "my-search-service.search.windows.net/indexers('rag-sample-indexer-debug')|Microsoft.Search/searchServices/indexers@2026-08-01-preview"
+}

@@ -1,0 +1,11 @@
+{
+  "select": "chunk_id,title,chunk,source_path",
+  "vectorQueries": [
+    {
+      "kind": "text",
+      "text": "cab reimbursement limit",
+      "fields": "chunk_vector",
+      "k": 3
+    }
+  ]
+}

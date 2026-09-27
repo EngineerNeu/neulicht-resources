@@ -1,0 +1,12 @@
+{
+  "name": "rag-sample-indexer-debug",
+  "dataSourceName": "rag-sample-datasource",
+  "targetIndexName": "rag-sample-index-debug",
+  "skillsetName": "rag-sample-skillset-debug",
+  "parameters": {
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "search": "タクシー 精算 上限",
+  "select": "chunk_id,title,chunk,source_path",
+  "vectorQueries": [
+    {
+      "kind": "text",
+      "text": "タクシー 精算 上限",
+      "fields": "chunk_vector",
+      "k": 3
+    }
+  ]
+}

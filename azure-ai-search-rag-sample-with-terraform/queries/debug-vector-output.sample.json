@@ -1,0 +1,5 @@
+{
+  "search": "*",
+  "select": "chunk_id,title,chunk,chunk_vector",
+  "top": 1
+}

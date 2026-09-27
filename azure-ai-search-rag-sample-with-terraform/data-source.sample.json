@@ -1,0 +1,10 @@
+{
+  "name": "rag-sample-datasource",
+  "type": "azureblob",
+  "credentials": {
+    "connectionString": "<AZURE_STORAGE_CONNECTION_STRING>"
+  },
+  "container": {
+    "name": "rag-documents"
+  }
+}

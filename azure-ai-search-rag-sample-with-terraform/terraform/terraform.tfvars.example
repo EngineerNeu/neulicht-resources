@@ -1,0 +1,21 @@
+# Copy to terraform.tfvars for local testing, but do NOT commit terraform.tfvars.
+# Prefer passing secrets through environment variables:
+#
+#   export TF_VAR_storage_connection_string='...'
+#   export TF_VAR_azure_ai_api_key='...'
+
+search_service_name = "my-search-service"
+
+storage_container_name    = "rag-documents"
+storage_connection_string = "<AZURE_STORAGE_CONNECTION_STRING>"
+
+azure_ai_resource_uri = "https://my-ai-resource.services.ai.azure.com"
+azure_ai_api_key      = "<AZURE_AI_API_KEY>"
+
+# Optional overrides:
+# embedding_deployment_name = "text-embedding-3-small"
+# embedding_model_name      = "text-embedding-3-small"
+# embedding_dimensions      = 1536
+# chunk_length              = 1000
+# chunk_overlap             = 200
+# enable_debug_index        = true
